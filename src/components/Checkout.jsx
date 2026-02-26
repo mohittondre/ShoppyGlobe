@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { clearCart } from "../features/cart/cartSlice";
+import { clearCart } from "../features/cart/CartSlice";
 import { useNavigate } from "react-router-dom";
 
 const Checkout = () => {

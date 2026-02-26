@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { addToCart } from "../features/cart/cartSlice";
+import { addToCart } from "../features/cart/CartSlice";
 
 const ProductItem = ({ product }) => {
   const dispatch = useDispatch();
