@@ -1,4 +1,4 @@
-import useFetchProducts from "../hooks/useFetchProducts";
+import useFetchProducts from "../hooks/UseFetchProducts";
 import ProductItem from "./ProductItem";
 import { useSelector } from "react-redux";
 
